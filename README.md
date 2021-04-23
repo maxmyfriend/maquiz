@@ -9,8 +9,11 @@
 
 # 開発状況
 開 発 環 境：Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/JavaScript
+
 開 発 期 間：
+
 平均作業時間：
+
 開 発 体 制：
 
 # 本番環境
