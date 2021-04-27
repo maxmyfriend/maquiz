@@ -1,0 +1,149 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  color: #3b4043;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #3b4043;
+}
+
+/* ヘッダー */
+
+.header {
+  background-color: #FFEEFF;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  height: 120px;
+}
+
+.inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__left {
+  width: 300px;
+  height: 100px;
+}
+
+.nav__left__logo {
+  font-size: 20px;
+  color:#FF5192;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.nav__left__title {
+  font-size: 32px;
+  color: #FF5192;
+  display: inline-block;
+  text-align: justify;
+}
+
+.nav__btn {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 13px;
+  color: #FF1A6F;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #FF5192 solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+
+/* メイン */
+
+.quiz_list {
+  width: 950px;
+  margin-bottom: 20px;
+  text-align: left;
+  border: 2px #FF5192 solid;
+  border-radius: 10px;
+}
+
+
+/* ユーザー管理 */
+
+.contents_row {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 350px;
+  border: 2px #FF5192 solid;
+  border-radius: 10px;
+}
+
+.page_heading {
+  font-size: 30px;
+  margin-bottom: 28px;
+}
+
+.container {
+  text-align: center;
+  background-color: #FFF0F5;
+}
+
+.field {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+}
+
+.form__btn {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  user-select: none;
+  background-color: #FFEEFF;
+  border: 1px #FF5192 solid;
+  border-radius: 3px;
+}
+
+/* フッター */
+
+.footer {
+  background-color: #999;
+  padding: 10px 0;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
