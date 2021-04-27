@@ -1,0 +1,22 @@
+<main class="main">
+  <div class="inner">
+    <% if user_signed_in? %>
+      <%= "ようこそ、#{current_user.nickname}さん" %>
+    <% end %>
+    <div class="quiz_search">
+      カテゴリー選択　検索
+    </div>
+    <div class="quiz_list">
+      クイズ①
+      <%# <%= render partial: "question", collection: @questions %> 
+    </div>
+    <div class="quiz_list">
+      クイズ②
+      <%# <%= render partial: "question", collection: @questions %> 
+    </div>
+    <div class="quiz_list">
+      クイズ③
+      <%# <%= render partial: "question", collection: @questions %> 
+    </div>
+  </div>
+</main>
