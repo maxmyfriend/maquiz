@@ -1,5 +1,8 @@
 <main class="main">
   <div class="inner">
+    <% if user_signed_in? %>
+      <%= "ようこそ、#{current_user.nickname}さん" %>
+    <% end %>
     <div class="quiz_search">
       カテゴリー選択　検索
     </div>

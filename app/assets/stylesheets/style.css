@@ -61,14 +61,14 @@ a {
 
 .nav__left__logo {
   font-size: 20px;
-  color: #FFABCE;
+  color:#FF5192;
   margin-bottom: 5px;
   text-align: justify;
 }
 
 .nav__left__title {
   font-size: 32px;
-  color: #FFABCE;
+  color: #FF5192;
   display: inline-block;
   text-align: justify;
 }
@@ -77,7 +77,7 @@ a {
   display: inline-block;
   padding: 7px 20px;
   font-size: 13px;
-  color: #FF5192;
+  color: #FF1A6F;
   text-decoration: none;
   user-select: none;
   border: 1px #FF5192 solid;
@@ -93,7 +93,44 @@ a {
   text-align: left;
   border: 2px #FF5192 solid;
   border-radius: 10px;
+}
 
+
+/* ユーザー管理 */
+
+.contents_row {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 350px;
+  border: 2px #FF5192 solid;
+  border-radius: 10px;
+}
+
+.page_heading {
+  font-size: 30px;
+  margin-bottom: 28px;
+}
+
+.container {
+  text-align: center;
+  background-color: #FFF0F5;
+}
+
+.field {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+}
+
+.form__btn {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  user-select: none;
+  background-color: #FFEEFF;
+  border: 1px #FF5192 solid;
+  border-radius: 3px;
 }
 
 /* フッター */
