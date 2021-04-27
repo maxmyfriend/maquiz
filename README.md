@@ -9,8 +9,11 @@
 
 # 開発状況
 開 発 環 境：Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/JavaScript
+
 開 発 期 間：
+
 平均作業時間：
+
 開 発 体 制：
 
 # 本番環境
@@ -89,18 +92,19 @@ Chromeの最新版を利用してアクセスしてください。ただしデ�
 - has_many :comments
 
 
-## problemsテーブル
+## questionsテーブル
 
-| Column      | Type    | Options    |
-| ----------- | ------- | ---------- |
-| title       | string  | null:false |
-| question    | string  | null:false |
-| option_1st  | string  | null:false |
-| option_2nd  | string  | null:false |
-| option_3rd  | string  | null:false |
-| option_4th  | string  | null:false |
-| explanation | string  | null:false |
-| category_id | integer | null:false |
+| Column            | Type    | Options    |
+| ----------------- | ------- | ---------- |
+| title             | string  | null:false |
+| question_sentence | string  | null:false |
+| option_1st        | string  | null:false |
+| option_2nd        | string  | null:false |
+| option_3rd        | string  | null:false |
+| option_4th        | string  | null:false |
+| answer            | string  | null:false |
+| explanation       | string  | null:false |
+| category_id       | integer | null:false |
 
 
 ### Association
@@ -111,18 +115,17 @@ Chromeの最新版を利用してアクセスしてください。ただしデ�
 
 ## commentsテーブル
 
-| Column  | Type       | Options                        |
-| ------- | ---------- | ------------------------------ |
-| content | string     |                                |
-| user    | references | null: false, foreign_key: true |
-| problem | references | null: false, foreign_key: true |
+| Column   | Type       | Options                        |
+| -------- | ---------- | ------------------------------ |
+| content  | string     |                                |
+| user     | references | null: false, foreign_key: true |
+| question | references | null: false, foreign_key: true |
 
 ### Association
 
 - belongs_to :user
-- belongs_to :problem
+- belongs_to :question
 
 ## ER図
-[![Image from Gyazo](https://i.gyazo.com/75640c251aed6035e56171c73fb9ce16.png)](https://gyazo.com/75640c251aed6035e56171c73fb9ce16)
-
+[![Image from Gyazo](https://i.gyazo.com/67cbaa40a94439b4cd077d922afec071.png)](https://gyazo.com/67cbaa40a94439b4cd077d922afec071)
 
